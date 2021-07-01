@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from 5studios.net/themes/laapp/alter-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jun 2021 13:18:22 GMT -->
+
+<head>
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <title>Park Finder - Parking App </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon-ParkFinder" href="img/Logo_F_Blanc.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/IconPF.png" type="images">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="undefined" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,600,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="css/laapp.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        h1,
+        a {
+            font-family: Cairo !important;
+        }
+    </style>
+</head>
+
+<body style="font-family: Cairo;"  dir="right">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-md main-nav navigation fixed-top sidebar-left">
+        <div class="container">
+            <button class="navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button>
+            <a href="#main" class="navbar-brand"><img src="img/Logo F BleuCiel.png" alt="Laapp"
+                    class="logo logo-sticky d-block d-md-none" /> <img src="img/Logo F Blanc.png" alt="Laapp"
+                    class="logo d-none d-md-block" /></a>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <div class="sidebar-brand">
+                    <a href="index.html"><img src="img/Logo F BleuCiel.png" alt="Laapp Template" class="logo" /></a>
+                </div>
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link scrollto" href="#">
+                            <select id="monselect"
+                                onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                                <option class="nav-link scrollto" value="ParkFinder-En.html">English</option>
+                                <option class="nav-link scrollto" value="ParkFinder-Fr.html">Français</option>
+                                <option class="nav-link scrollto" value="ParkFinder-Ar.html" selected>العربية</option>
+                            </select>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#trial">التحميل</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#pricing">الاسعار</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#product">المنتوج </a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#features">الوضائف</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#home">الاستقبال</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="overflow-hidden position-relative">
+        <!-- Alternative 3 Heading -->
+        <header class="header alter3-header section gradient gradient-primary-auxiliary text-contrast" id="home">
+            <div class="shapes-container">
+                <div class="animation-shape shape-ring animation--rotating-diagonal">
+                    <div></div>
+                </div>
+                <div class="animation-shape shape-circle animation--clockwise">
+                    <div></div>
+                </div>
+                <div class="animation-shape shape-triangle animation--anti-clockwise">
+                    <div class="animation--rotating"></div>
+                </div>
+                <div class="animation-shape shape-diamond animation--anti-clockwise">
+                    <div class="animation--rotating"></div>
+                </div>
+                <div class="static-shape shape-ring-1"></div>
+                <div class="static-shape shape-ring-2"></div>
+                <div class="static-shape shape-circle-1"></div>
+                <div class="static-shape pattern-dots-1"></div>
+                <div class="static-shape pattern-dots-2"></div>
+                <div class="static-shape ghost-shape ghost-shape-1"></div>
+            </div>
+            <div class="container bring-to-front">
+                <div class="row">
+                    <div class="col-md-6" dir="auto">
+                        <h1 class="extra-bold display-md-3 font-md" dir="auto">الطريقة الجديدة<span
+                                class="d-block display-md-4 light">لركن سيارتك</span></h1>
+                        <p class="lead" dir="auto">لقد كنت بالفعل في موقف حريج ولا يمكنك العثور علا مكان لركن سيارتك
+                            حسنا الان مع "بارك فندر" ستوفر الوقت في جميع انواع المواقف و تجد عل الفور مكانا لإيقاف
+                            سيارتك. </p>
+                        <nav class="nav mt-5" dir="auto">
+                            <a href="#trial" class="nav-link mr-3 btn btn btn-rounded btn-contrast"> التحميل </a><a
+                                href="#pricing" class="nav-link btn btn-rounded btn-outline-contrast"><i
+                                    class="fas fa-tag mr-3"></i> الاسعار </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Isometric Mockups -->
+        <section class="isometric-mockups">
+            <div class="tablet ipad landscape">
+                <div class="screen"><img src="img/Capture1.PNG" alt="..." /></div>
+                <div class="button"></div>
+            </div>
+            <div class="iphone light phone-big">
+                <div class="screen"><img src="img/screens/app/4.png" alt="..." /></div>
+                <div class="notch"></div>
+            </div>
+            <div class="iphone light phone-small">
+                <div class="screen"><img src="img/mobile1.PNG" alt="..." /></div>
+                <div class="notch"></div>
+            </div>
+            <div class="tablet ipad portrait">
+                <div class="screen"><img src="img/screens/tablet/2.png" alt="..." /></div>
+                <div class="button"></div>
+            </div>
+        </section>
+        <!-- Partners -->
+        <section class="section alter3-partners bg-contrast edge top-left">
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="shapes-container">
+                        <div class="pattern pattern-dots"></div>
+                    </div>
+
+                    <div class="section-heading text-center"style =" text-align:right;">
+                        <h2 class="heading-line" dir="auto">لماذا يجب عليك إختيار <br> "بارك فندر" ؟ </h2>
+                        <p class="text-muted lead mx-auto" dir="auto">تم تصميم "بارك فيندر" لمنحك أفضل تجربة ممكنة مع
+                            اخير الاحداث التطور التكنولوجية ستساعدك علي ركن سيارتك بسهولة دون إضاعة الوقت في البحث عن
+                            مكان</p>
+                    </div>
+
+                    <!-- 
+                            <div class="section-heading">
+                                <i class="fas fa-handshake fa-3x accent mb-3"></i>
+                                <h3 class="text-alternate heading-line">We've partnered with awesome folks</h3>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam laboriosam modi nam necessitatibus nemo pariatur provident.</p>
+                            </div>
+                            <ul class="nav">
+                                <li class="nav-item mr-3 py-2 op-5"><img src="img/logos/1.png" class="icon" alt="" /></li>
+                                <li class="nav-item mr-3 py-2 op-5"><img src="img/logos/2.png" class="icon" alt="" /></li>
+                                <li class="nav-item mr-3 py-2 op-5"><img src="img/logos/3.png" class="icon" alt="" /></li>
+                                <li class="nav-item mr-3 py-2 op-5"><img src="img/logos/4.png" class="icon" alt="" /></li>
+                                <li class="nav-item mr-3 py-2 op-5"><img src="img/logos/5.png" class="icon" alt="" /></li>
+                                <li class="nav-item mr-3 py-2 op-5"><img src="img/logos/6.png" class="icon" alt="" /></li>
+                            </ul>
+                            <a href="#!" class="more-link btn btn-outline-primary bold">Learn more</a>
+                            -->
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Powerful Features -->
+        <section class="section alter3-features" id="features">
+            <div class="shapes-container">
+                <div class="shape shape-ring shape-ring-1">
+                    <div class="animation animation--rotating"></div>
+                </div>
+                <div class="shape shape-ring shape-ring-2">
+                    <div class="animation animation--rotating"></div>
+                </div>
+                <div class="shape shape-circle animation--clockwise">
+                    <div></div>
+                </div>
+                <div class="shape background-shape-main"></div>
+            </div>
+            <div class="container" style="margin-top: 90px;">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 order-lg-last">
+                        <div class="section-heading">
+                            <p class="px-2 text-alternate text-uppercase bold"></p>
+                            <h2 class="heading-line">ميزات قوية في انتظارك</h2>
+                            <p class="lead text-muted my-4 semi-bold">Lوثائق كاملة لمن يريدون معرفة المزيد عن التطبيق ، جاهز لمساعدتك في فهم كيفية عمله
+                            </p>
+                            
+                            <a href="#!" class="more-link btn btn-primary text-contrast bold">تعرف أكثر</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 pr-lg-6">
+                        <div class="row">
+                            <div class="col-lg-6 rotated-cards">
+                                <div data-aos="fade-down" data-aos-delay="0">
+                                    <div class="card border-0 shadow mb-5 tilt">
+                                        <div class="card-body py-5 px-4">
+                                            <div
+                                                class="icon-box rounded-circle gradient gradient-primary-light text-contrast shadow icon-xl mb-3">
+                                                <i class="fas fa-download" style=" "></i></div>
+                                            <h4 class="bold mb-5">التركيب</h4>
+                                            <p class="text-muted lead">
+                                                بعض المؤشرات لمعرفة كيفية تثبيت تطبيقنا
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-down" data-aos-delay="500">
+                                    <div class="card border-0 shadow mb-5 tilt">
+                                        <div class="card-body py-5 px-4">
+                                            <div
+                                                class="icon-box rounded-circle gradient gradient-primary-light text-contrast shadow icon-xl mb-3">
+                                                <i class="far fa-hand-point-right"></i></div>
+                                            <h4 class="bold mb-5">بنية تحتية</h4>
+                                            <p class="text-muted lead">بعض التفاصيل عن المضيفين المستخدمة.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 rotated-cards">
+                                <div data-aos="fade-down" data-aos-delay="800">
+                                    <div class="card border-0 shadow mb-5 tilt">
+                                        <div class="card-body py-5 px-4">
+                                            <div
+                                                class="icon-box rounded-circle gradient gradient-primary-light text-contrast shadow icon-xl mb-3">
+                                                <i class="fas fa-user-shield"></i></i></div>
+                                            <h4 class="bold mb-5">الهيكل الإداري </h4>
+                                            <p class="text-muted lead">يتضمن الهيكل الإداري إدارة وتشغيل النظام المعني المستخدم</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-down" data-aos-delay="1200">
+                                    <div class="card border-0 shadow mb-5 tilt">
+                                        <div class="card-body py-5 px-4">
+                                            <div
+                                                class="icon-box rounded-circle gradient gradient-primary-light text-contrast shadow icon-xl mb-3">
+                                                <i class="fas fa-file-archive"></i></div>
+                                            <h4 class="bold mb-5">هيكل الملف</h4>
+                                            <p class="text-muted lead">إذا كنت ترغب في مراجعة هياكل البيانات المختارة</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container" dir="auto">
+            <div class="row gap-y" style="background-color: #007bff46; max-height: 820px;">
+                <div class="col-md-6" style="padding-top:150px; text-align: center; " dir="">
+                    <div class="section-heading">
+                        <h2 class="heading-line">هنا نظرة عامة على التطبيق
+                        </h2>
+                        <p class="lead text-muted">يأتي ParkFinder مزودًا بالعديد من الميزات التي ستساعدك على استخدام التطبيق بسهولة أكبر.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="iphone light">
+                        <div class="screen shadow-box">
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade1" id="slide1">
+                                    
+                                    <img src="img/page d'accueil.PNG" style="height: 400px; width: 227.69px;">
+
+                                </div>
+
+                                <div class="mySlides fade1">
+
+                                    <img src="img/captures/page d'accueil.PNG" style="height: 400px; width: 227.69px;">
+
+                                </div>
+
+                                <div class="mySlides fade1">
+
+                                    <img src="img/captures/parking.PNG" style="height: 400px; width: 227.69px;">
+
+                                </div>
+
+                                <div class="mySlides fade1">
+
+                                    <img src="img/captures/mobile1.PNG" style="height: 400px; width: 227.69px;">
+
+                                </div>
+
+                                <div class="mySlides fade1">
+
+                                    <img src="img/captures/mobile2.PNG" style="height: 400px; width: 227.69px;">
+
+                                </div>
+
+                                <div class="mySlides fade1">
+
+                                    <img src="img/captures/mobile3.PNG" style="height: 400px; width: 227.69px; position: relative; z-index: 100;">
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10095;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10094;</a>
+                    <br>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Features you can't miss -->
+        <section class="section features-cant-miss">
+            <div class="shapes-container overflow-clear">
+                <div class="shape shape-circle shape-circle-1">
+                    <div data-aos="fade-up-left"></div>
+                </div>
+                <div class="shape shape-circle shape-circle-2">
+                    <div data-aos="fade-up-right" data-aos-delay="200"></div>
+                </div>
+                <div class="shape shape-circle shape-circle-3">
+                    <div data-aos="fade-up-left" data-aos-delay="400"></div>
+                </div>
+                <div class="shape shape-circle shape-circle-4">
+                    <div data-aos="fade-up-left" data-aos-delay="600"></div>
+                </div>
+                <div class="shape shape-triangle shape-animated">
+                    <div class="animation--rotating"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gap-y">
+                    <div class="col-md-6 order-md-last">
+                        <div class="section-heading">
+                            
+                            <h2 class="heading-line"><i class="fas fa-map-marker-alt fa-2x text-danger mb-3" style="font-size:45px ; color :#007bff !important; margin-right: 10px;"></i>كيفية حجز مكان</h2>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="media flex-column flex-md-row text-center text-md-left">
+                                
+                                <div class="media-body mt-3 mt-md-0">
+                                    <h5 class="bold mt-0 mb-1">خريطة الموقع</h5>
+                                    <p class="m-0">عندما تختار موقفًا لانتظار السيارات ، يكون لديك قسم يوجد به موقعه</p>
+                                </div>
+                                <i class="mx-auto mr-md-3 mx-auto mr-md-3 accent pe pe-7s-graph1 pe-3x"></i>
+                            </li>
+                            <li class="media flex-column flex-md-row text-center text-md-left mt-4">
+                                
+                                <div class="media-body mt-3 mt-md-0">
+                                    <h5 class="bold mt-0 mb-1">معلومات وقوف السيارات</h5>
+                                    <p class="m-0">يمكنك الاطلاع على جميع المعلومات الخاصة بالموقف من حيث اسمه والعنوان ووقت الفتح والإغلاق وعدد الأماكن الخالية.</p>
+                                </div>
+                                <i class="mx-auto mr-md-3 mx-auto mr-md-3 accent pe pe-7s-info pe-3x"></i>
+                            </li>
+                            <li class="media flex-column flex-md-row text-center text-md-left mt-4">
+                                
+                                <div class="media-body mt-3 mt-md-0">
+                                    <h5 class="bold mt-0 mb-1">تحفظ</h5>
+                                    <p class="m-0">ثم إذا كان موقف السيارات يفحص جميع احتياجاتك ، يمكنك حجزه ، واشترِ باختيار عدد الساعات التي ستترك فيها سيارتك فيه..</p>
+                                </div>
+                                <i class="mx-auto mr-md-3 mx-auto mr-md-3 accent pe pe-7s-check pe-3x"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bubble bubble-left center-x-md">
+                            <figure class="rounded overflow-hidden shadow" data-aos="zoom-in"><img
+                                    src="img/page d'accueil bubble.png" class="img-responsive" alt="" /></figure>
+                        </div>
+                        <figure class="bubble bubble-right rounded overflow-hidden shadow"><img src="img/choose pk.png"
+                                class="img-responsive" alt="" data-aos="fade-left" /></figure>
+                        <div class="iphone light">
+                            <div class="screen shadow-box"><img src="img/page d'accueil.PNG" alt="..." /></div>
+                            <div class="notch"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing -->
+        <section class="section pricing-plans" id="pricing"  style="margin: 0px 25px 0px 25px; background-color: #007bff46; max-height: 1700px; border-radius: 20px;">
+            <div class="shapes-container overflow-clear">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <i class="icon pe pe-7s-cash pe-3x" data-aos="fade-down"></i> <i class="icon fas fa-dollar-sign fa-3x" data-aos="fade-up"></i> <i class="icon pe pe-7s-piggy pe-3x" data-aos="fade-up"></i>
+                <i class="icon pe pe-7s-cart pe-3x" data-aos="fade-left"></i> <i class="icon far fa-credit-card fa-3x" data-aos="fade-down"></i> <i class="icon far fa-money-bill-alt fa-3x" data-aos="fade-up"></i>
+            </div>
+            <div class="container">
+                <div class="section-heading text-center">
+                    <span class="rounded-pill shadow-box bold py-2 px-4"> <span class="text-primary">احفظ أكثر</span> مع هذه الخطط الرائعة<i class="far fa-lightbulb text-primary mr-2"></i></span>
+                    <h2 class="mt-3 heading-line">تسعير شفاف</h2>
+                    <p class="lead text-muted">تحتوي خططنا على كل ما تحتاجه للارتقاء بحسابك إلى المستوى التالي. <span class="highlight">لا توجد رسوم خفية.</span></p>
+                    <div id="pricing-basis-options" class="btn-group btn-group-toggle mt-5" data-toggle="buttons">
+                        
+                    </div>
+                </div>
+                <div class="row no-gutters align-items-center pricing-plans-options">
+                    <div class="col-lg-4">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h4 class="text-alternate bold text-capitalize">حساب أساسي</h4>
+                                <p>هذا ما حصلت عليه</p>
+                                <div class="pricing-details">
+                                    <span class="pricing-value"style="font-size: 50px; font-weight: bold; color: #4a9df7;">0.00 Dhs</span>
+                                
+                            <hr />
+                            <div class="d-none d-md-flex"style=" border-radius: 20px;">
+                                <ul class="list-group list-group-flush list-group-no-border">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"> 250 Tech'Coins مجانية عند أول عملية شراء </li>
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item"></li>
+                                </ul>
+                            </div>
+                            <a href="#trial" class="more-link btn btn-outline-alternate mb-3">اريد هذا !</a>
+                        </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h4 class="text-alternate bold text-capitalize">قسط شهر واحد</h4>
+                                <p>هذا ما حصلت عليه</p>
+                                <div class="pricing-details">
+                                    <span class="pricing-value"style="font-size: 45px; font-weight: bold; color: #4a9df7;">99.99 Dhs</span>
+                            <hr />
+                            <div class="d-none d-md-flex" style="margin-left:20px; border-radius: 20px;">
+                                <ul class="list-group list-group-flush list-group-no-border">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">3 غسالات مجانية</li>
+                                    <li class="list-group-item">الوصول إلى أماكن بريميوم</li>
+                                    <li class="list-group-item">5% أكثر عند شراء Tech'Coins</li>
+                                    <li class="list-group-item"></li>
+                                </ul>
+                            </div>
+                            <a href="#trial" class="more-link btn btn-outline-alternate mb-3">اريد هذا !</a>
+                        </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h4 class="text-alternate bold text-capitalize"> ثلاثة اشهر قسط</h4>
+                                <p>هذا ما حصلت عليه</p>
+                                <div class="pricing-details">
+                                    <span class="pricing-value"style="font-size: 42px; font-weight: bold; color: #4a9df7;">199.99 Dhs</span>
+                                
+                            <hr />
+                            <div class="d-none d-md-flex"style=" margin-left:15px; border-radius: 20px;">
+                                <ul class="list-group list-group-flush list-group-no-border">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">5  غسالات مجانية</li>
+                                    <li class="list-group-item">الوصول إلى أماكن بريميوم</li>
+                                    <li class="list-group-item">10% أكثر عند شراء Tech'Coins
+                                    
+                                </ul>
+                            </div>
+                            <a href="#trial" class="more-link btn btn-outline-alternate mb-3">اريد هذا !</a>
+                        </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h4 class="text-alternate bold text-capitalize">ستة اشهر قسط</h4>
+                                <p>هذا ما حصلت عليه</p>
+                                <div class="pricing-details">
+                                    <span class="pricing-value" style="font-size: 50px; font-weight: bold; color: #4a9df7;">299.99 Dhs</span>
+                                
+                            <hr />
+                            <div class="d-none d-md-flex" style="margin-left:100px; border-radius: 20px;">
+                                <ul class="list-group list-group-flush list-group-no-border">
+                                    <li class="list-group-item">10  غسالات مجانية</li>
+                                    <li class="list-group-item">الوصول إلى أماكن بريميوم</li>
+                                    <li class="list-group-item">15%أكثر عند شراء Tech'Coins </li>
+                                    <li class="list-group-item">الوصول إلى أماكن VIP المميزة</li>
+                                    
+                                </ul>
+                            </div>
+                            <a href="#!" class="more-link btn btn-outline-alternate mb-3">اريد هذا !</a>
+                        </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-6 ">
+                        <div class="p-5  " >
+                            <div class="text-center" >
+                                <h4 class="text-primary bold text-capitalize">قسط سنة واحدة</h4>
+                                <p>هذا ما حصلت عليه</p>
+                                <div class="pricing-details">
+                                    <span class="pricing-value"style="font-size: 50px; font-weight: bold; color: #4a9df7;">499.99 Dhs</span>
+                                
+                            <hr />
+                            <div class="d-none d-md-flex"style=" border-radius: 20px; margin-left:100px;">
+                                <ul class="list-group list-group-flush list-group-no-border" >
+                                    <li class="list-group-item">15  غسالات مجانية</li>
+                                    <li class="list-group-item">الوصول إلى أماكن بريميوم</li>
+                                    <li class="list-group-item">30%أكثر عند شراء Tech'Coins</li>
+                                    <li class="list-group-item">الوصول إلى أماكن VIP المميزة</li>
+                                    <li class="list-group-item"></li>
+                                </ul>
+                            </div>
+                            <a href="#trial" class="more-link btn btn-alternate mb-3">اريد هذا !</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    
+            
+                   
+                </div>
+            </div>
+            <div class="container pt-0 border-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="text-center text-md-left">
+                            <h4 class="bold accent">لست متأكدًا ما هو الأفضل لك؟</h4>
+                            <p class="mt-0">
+                                يمكنك البدء مجانًا ، طالما أنك وقعت في حب تطبيقنا ، يمكنك لاحقًا تحديد الخطة الأفضل التي تناسب احتياجاتك.
+                                <span class="italic dotted">من خلال إنشاء حساب جديد عند أول عملية شراء لك ، ستحصل على 250 Tech'Coins مجانية (5 ساعات مجانية).</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center text-md-right"><a href="#trial" class="btn btn-primary btn-lg text-contrast p-4 more-link ml-md-auto">جربه الآن !</a></div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- Why Choose Us -->
+        <!-- -->
+        <section class="section why-choose-us">
+            <div class="shapes-container">
+                <div class="pattern pattern-dots"></div>
+            </div>
+            <div class="container pb-8 bring-to-front">
+                <!-- 
+                    <div class="section-heading text-center">
+                        <h2 class="heading-line">Why you should choose Park Finder?</h2>
+                        <p class="text-muted lead mx-auto">Park Finder is designed to give you the best possible experience with the last trends in app design. It'll help you to Park easily without waisting time looking for a place.</p>
+                    </div> 
+                    -->
+                    <div class="row gap-y">
+                        <div class="col-md-6">
+                            <h4 class="bold text-alternate">كل شيء يبدأ باختيار التطبيق المناسب</h4>
+                            <p class="text-muted lead mb-5">عندما تبحث عن تطبيق تريده أن يبرز عن غيره. وتريد أن يكون أسهل مع جميع المكونات التي قد تحتاجها. </p>
+                            <ul class="list-unstyled why-icon-list">
+                                <li class="list-item">
+                                    <div class="media align-items-center">
+                                        <div class="icon-shape mr-3">
+                                            <div class="shape shape-pipes"></div>
+                                            <i class="icon text-alternate fas fa-credit-card fa-3x"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h5 class="bold">شراء</h5>
+                                            <p class="my-0">جميع مشترياتك مؤمنة ، فلا داعي للقلق بشأن معلوماتك</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-item">
+                                    <div class="media align-items-center">
+                                        <div class="icon-shape mr-3">
+                                            <div class="shape shape-pipes"></div>
+                                            <i class="icon text-alternate fas fa-comments fa-3x"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h5 class="bold">إشعارات</h5>
+                                            <p class="my-0">في أي وقت تشتري أو تحجز ، تتلقى إشعارًا تفصيليًا </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-item">
+                                    <div class="media align-items-center">
+                                        <div class="icon-shape mr-3">
+                                            <div class="shape shape-pipes"></div>
+                                            <i class="icon text-alternate fas fa-qrcode fa-3x"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h5 class="bold">Qr-Code</h5>
+                                            <p class="my-0">عند وصولك إلى موقف السيارات لتقديم رمز الاستجابة السريعة للقارئ لفتح الحاجز التلقائي.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <hr class="my-5" />
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="rotated-mockups device-twin">
+                                <div class="browser absolute shadow-lg"><img src="img/captures/about_ipad.PNG" alt="..." /></div>
+                                <div class="front iphone light">
+                                    <div class="screen"><img src="img/captures/qr.PNG" alt="..." /></div>
+                                    <div class="notch"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- FAQs -->
+        <section class="section faqs-dd bg-light edge top-left">
+            <div class="shapes-container">
+                <div class="absolute icon" data-aos="fade-down-left"><i class="fas fa-question"></i></div>
+            </div>
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2 class="heading-line">أسئلة مكررة</h2>
+                    <p class="lead">هل تريد معرفة المزيد عن خدماتنا؟</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-lg-auto">
+                        <div data-aos="fade-up">
+                            <div class="card shadow-box shadow-hover mb-3">
+                                <div class="card-header py-3"><a href="#" class="card-title collapsed"
+                                        data-toggle="collapse" data-target="#v1-q1">ما هي تيك كوينز Tech'Coins؟</a></div>
+                                <div id="v1-q1" class="collapse card-body">
+                                    عندما تريد الحجز ، فأنت بحاجة إلى Tech'Coins ، وهذه أموالنا بدونها لا يمكنك الاحتفاظ بها.
+                            </div>
+                        </div>
+                        <div data-aos="fade-up">
+                            <div class="card shadow-box shadow-hover mb-3">
+                                <div class="card-header py-3"><a href="#" class="card-title collapsed"
+                                        data-toggle="collapse" data-target="#v1-q2">ما هي أماكن VIP المميزة؟</a>
+                                </div>
+                                <div id="v1-q2" class="collapse card-body">
+                                    الأماكن المميزة لكبار الشخصيات هي أماكن متاحة فقط بمجرد امتلاء موقف السيارات بالكامل ، ويمكن الوصول إليها من قبل أولئك الذين لديهم اشتراك مميز لمدة 6 أشهر أو لمدة عام واحد.
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up">
+                            <div class="card shadow-box shadow-hover mb-3">
+                                <div class="card-header py-3"><a href="#" class="card-title collapsed"
+                                        data-toggle="collapse" data-target="#v1-q3">كيف نشتري Tech'Coins؟</a>
+                                </div>
+                                <div id="v1-q3" class="collapse card-body">الأمر بسيط ، الشيء الوحيد الذي عليك فعله هو الانتقال إلى علامة التبويب الرصيد وإدخال المبلغ المطلوب من Tech'Coins الذي تريد إضافته إلى محفظتك</div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start For Free -->
+        <section class="section start-free" id="trial">
+            <div class="shapes-container">
+                <i class="icon pe pe-7s-hourglass pe-3x"></i> <i class="icon pe pe-7s-magic-wand pe-3x"></i> <i
+                    class="icon pe pe-7s-rocket pe-3x"></i> <i class="icon pe pe-7s-plugin pe-3x"></i> <i
+                    class="icon pe pe-7s-like pe-3x"></i>
+                <i class="icon pe pe-7s-clock pe-3x"></i> <i class="icon pe pe-7s-smile pe-3x"></i> <i
+                    class="icon pe pe-7s-piggy pe-3x"></i> <i class="icon pe pe-7s-shield pe-3x"></i> <i
+                    class="icon pe pe-7s-server pe-3x"></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <div class="section-heading text-center">
+                            <i class="fas fa-download fa-3x text-alternate"></i>
+                            <h2 class="heading-line bold mt-4">جرب التطبيق الآن!</h2>
+                            <p class="lead text-muted">ماذا تنتظر ؟ لقد وصلت إلى هذا الحد ، اقرأ حتى نهاية الصفحة. الشيء الوحيد المتبقي هو الانتقال إلى App Store أو Play store وتنزيل ParkFinder اليوم ...</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav flex-column flex-md-row align-items-center justify-content-center" style="padding-top:150px ;">
+                    <a href="" class="btn btn-lg py-3 px-4 bold mr-0 mr-md-3 mb-3 mb-md-0"><img src="img/app-store.png"
+                            alt=""></a> <a href="mailto:support@5studios.net" class="btn btn-lg py-3 px-4 bold"><img
+                            src="img/google-play.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+         <!-- Contact Channels -->
+         <section class="section">
+            <div class="container bring-to-front">
+                <div class="row gap-y">
+                    <div class="col-md-6">
+                        <div class="rounded media bg-contrast shadow-lg p-4">
+                            <div class="icon-shape mr-4"><i class="pe pe-7s-cash pe-3x"></i></div>
+                            <div class="media-body">
+                                <h4 class="text-primary">Contact Us</h4>
+                                <a href="mailto:support@5studios.net" class="more-link d-flex align-items-center mt-0">ContactUs@ExceptionGuys.net</a>
+                                <p class="mt-4"> إذا كان لديك أي سؤال فلا تتردد في طرحه علينا ، هل تريد معرفة المزيد عن التطبيق؟ تريد مظاهرة؟ ترك لنا خطا</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="rounded media bg-contrast shadow-lg p-4">
+                            <div class="icon-shape mr-4"><i class="pe pe-7s-help2 pe-3x"></i></div>
+                            <div class="media-body">
+                                <h4 class="text-primary">Technical Support</h4>
+                                <a href="mailto:support@5studios.net" class="more-link d-flex align-items-center mt-0">support@ExceptionGuys.net</a>
+                                <p class="mt-4">أي سؤال حول كيفية دمج تثبيت أو استخدام التطبيق الخاص بك ؟. لا تقلق ، فريقنا المهوس جاهز من أجلك.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer section bg-dark text-contrast edge top-left" >
+        <div class="container py-3">
+            <div class="row gap-y text-center text-md-left">
+                <div class="col-md-4 mr-auto">
+                    <img src="img/Logo F Blanc.png" alt="" class="logo" />
+                    <p>Parkfinder ، تطبيق يوفر وقتك.</p>
+                </div>
+                <div class="col-md-2">
+                    <nav class="nav flex-column"><a class="nav-item py-2 text-contrast" href="#">حول</a> <a class="nav-item py-2 text-contrast" href="#">خدمات</a> <a class="nav-item py-2 text-contrast" href="#">مدونة او مذكرة</a></nav>
+                </div>
+                <div class="col-md-2">
+                    <nav class="nav flex-column"><a class="nav-item py-2 text-contrast" href="#">سمات</a> <a class="nav-item py-2 text-contrast" href="#">API</a> <a class="nav-item py-2 text-contrast" href="#">عملاء</a></nav>
+                </div>
+                <div class="col-md-2">
+                    <nav class="nav flex-column"><a class="nav-item py-2 text-contrast" href="#">وظائف</a> <a class="nav-item py-2 text-contrast" href="#">اتصال</a> <a class="nav-item py-2 text-contrast" href="#">يبحث</a></nav>
+                </div>
+                
+            </div>
+            <hr class="mt-5 op-5" />
+            <div class="row small">
+                <div class="col-md-4">
+                    <p class="mt-2 mb-0 text-center text-md-left">© 2021 <a href="https://5studios.net/" style="text-decoration: none; color: #fff;">ExceptionGuys</a>. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/laapp.min.js"></script>
+    <script src="js/sliderScript.js"></script>
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76592740-15"></script>
+</body>
+<!-- Mirrored from 5studios.net/themes/laapp/alter-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jun 2021 13:18:51 GMT -->
+
+</html>
